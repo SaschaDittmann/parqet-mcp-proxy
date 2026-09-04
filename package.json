@@ -1,0 +1,16 @@
+{
+  "name": "parqet-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Local MCP proxy for Parqet portfolio data (handles OAuth)",
+  "type": "module",
+  "bin": {
+    "parqet-mcp-proxy": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/auth.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
